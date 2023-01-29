@@ -1,8 +1,61 @@
-header {
-    height: 120px; 
-    display: flex;
-    flex-direction: column;
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
-header nav {font-family: Arial, Helvetica, sans-serif; font-size: 32px; font-weight: 900;}
+
+
+body {
+    line-height:1;
+    background-color: rgb(243, 243, 243); 
+    color: rgba(24, 24, 24, 100%); 
+    font: normal 14px Roboto, Arial, sans-serif;
+}
+
+nav ul {list-style:none;}
+
+blockquote, q {quotes:none;}
+
+blockquote:before, blockquote:after,
+q:before, q:after {content:'';content:none;}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+    color: rgba(24, 24, 24, 100%); 
+}
+
+header nav {font-size: 32px; font-weight: 900;}
 
 .container {width: 1300px; margin: 0 auto;}
+
+button {
+    font-size: 1.2rem;
+    padding: 16px 32px;
+    font-weight: 600;
+    background-color: rgba(0,0,0,0%);
+    border-radius: .6rem;
+}
+
+.btn-2 {
+    border: 3px solid rgba(24, 24, 24, 100%);
+}
