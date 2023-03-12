@@ -15,6 +15,7 @@ const renderer = new THREE.WebGLRenderer({
   canvas: document.querySelector("#canvas"),
 });
 renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setPixelRatio(window.devicePixelRatio);
 
 const sphereGeometry = new THREE.SphereGeometry(1, 32, 32);
 const sphereMaterial = new THREE.MeshBasicMaterial({
